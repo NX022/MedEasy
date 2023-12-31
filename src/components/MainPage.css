@@ -1,0 +1,170 @@
+body {
+  background: none;
+}
+
+.navbar {
+  background-color: #54a2f623;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(158, 221, 46);
+}
+
+.logo-img {
+  width: 64px;
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .btn-login {
+  margin-left: 10px;
+  width: 90px;
+  background-color: rgba(175, 236, 71, 0.6);
+  font-weight: bolder;
+  color: black;
+  font-size: 17px;
+  height: 40px;
+}
+
+.navbar-nav .btn-signup {
+  margin-left: 10px;
+  width: 90px;
+  background-color: rgba(175, 236, 71, 0.6);
+  font-weight: bolder;
+  font-size: 17px;
+  height: 40px;
+}
+
+.navbar-nav .btn-signup:hover {
+  background-color: rgb(158, 221, 46);
+  color: black;
+}
+
+.btn-login:hover {
+  background-color: rgb(158, 221, 46);
+  color: black;
+}
+
+/* Adjust the margin between buttons */
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer {
+  background-color: rgb(89, 124, 185);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer p span {
+  margin-right: 15px;
+}
+
+.footer-logo {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.left-section img {
+  width: 636px;
+  max-width: 100%;
+  margin-right: 90px;
+  margin-bottom: 10px;
+}
+
+.right-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.right-section h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.right-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.right-section button {
+  width: 150px;
+  padding: 10px;
+  background-color: rgba(175, 236, 71, 0.6);
+  color: black;
+  font-weight: bolder;
+  border: rgba(175, 236, 71, 0.6);
+}
+.right-section button:hover {
+  background-color: rgb(158, 221, 46);
+  color: black;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(158, 221, 46);
+}
+
+.logo-img {
+  width: 64px;
+  margin-right: -3px;
+}
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.patient-card {
+  background-color: rgba(157, 221, 46, 0.664);
+  color: #333;
+  width: 185px;
+}
+
+.doctor-card {
+  background-color: #17a3b881;
+  width: 180px;
+  color: black;
+}
+
+.dropdown-menu {
+  right: 0;
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.btn-login::after {
+  display: none;
+}
+
+.btn-signup::after {
+  display: none;
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
